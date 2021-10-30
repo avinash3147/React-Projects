@@ -1,5 +1,6 @@
 import Menu from "./menu/Menu"
 import Review from "./reviews/Review"
+import Tabs from "./tabs/tabs"
 import Tour from "./tours/Tour"
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
         <div className='container'>
             {/* <Tour /> */}
             {/* <Review /> */}
-            <Menu />
+            {/* <Menu /> */}
+            <Tabs />
         </div>
     )
 }
