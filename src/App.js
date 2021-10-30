@@ -1,5 +1,7 @@
+import LoremIpsumDataGenerator from "./LoremIpsum/LoremIpsum"
 import Menu from "./menu/Menu"
 import Review from "./reviews/Review"
+import Slider from "./slider/slider"
 import Tabs from "./tabs/tabs"
 import Tour from "./tours/Tour"
 
@@ -9,7 +11,9 @@ function App() {
             {/* <Tour /> */}
             {/* <Review /> */}
             {/* <Menu /> */}
-            <Tabs />
+            {/* <Tabs /> */}
+            {/* <Slider /> */}
+            <LoremIpsumDataGenerator />
         </div>
     )
 }
