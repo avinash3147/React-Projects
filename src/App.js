@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Review from "./reviews/Review"
+import Tour from "./tours/Tour"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className='container'>
+            {/* <Tour /> */}
+            <Review />
+        </div>
+    )
 }
 
-export default App;
+export default App
