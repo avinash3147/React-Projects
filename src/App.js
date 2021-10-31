@@ -1,3 +1,4 @@
+import ColorGeneratorDriver from "./ColorGenerator/ColorGeneratorDriver"
 import LoremIpsumDataGenerator from "./LoremIpsum/LoremIpsum"
 import Menu from "./menu/Menu"
 import Review from "./reviews/Review"
@@ -13,7 +14,8 @@ function App() {
             {/* <Menu /> */}
             {/* <Tabs /> */}
             {/* <Slider /> */}
-            <LoremIpsumDataGenerator />
+            {/* <LoremIpsumDataGenerator /> */}
+            <ColorGeneratorDriver />
         </div>
     )
 }
