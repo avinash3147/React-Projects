@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MarkDownPreview from './MarkDownPreview/MarkDownPreview';
+// import MarkDownPreview from './MarkDownPreview/MarkDownPreview';
+import RandomUser from './RandomUser/RandomUser';
 // import './index.css';
 // import App from './App';
 
@@ -17,7 +18,7 @@ ReactDOM.render(
     {/* <GroceryBud /> */}
 
     {/* <AppProvider> */}
-      <MarkDownPreview />
+      <RandomUser />
     {/* </AppProvider> */}
   </React.StrictMode>,
   document.getElementById('root')
