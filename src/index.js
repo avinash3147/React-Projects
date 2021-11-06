@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import MarkDownPreview from './MarkDownPreview/MarkDownPreview';
 // import './index.css';
-import App from './App';
-import { AppProvider } from './SideBarModal/Context';
-import SideBarModal from './SideBarModal/SideBarModal';
+// import App from './App';
+
+// import SideBarModal from './SideBarModal/SideBarModal';
+// import { AppProvider } from './Stripe/Context';
+// import Stripe from './Stripe/Stripe';
 // import Navbar from './Navbar/Navbar';
 // import GroceryBud from './GroceryBud/GroceryBud';
 // import './GroceryBud/GroceryBud.css'
@@ -13,9 +16,9 @@ ReactDOM.render(
     {/* <App /> */}
     {/* <GroceryBud /> */}
 
-    <AppProvider>
-      <SideBarModal />
-    </AppProvider>
+    {/* <AppProvider> */}
+      <MarkDownPreview />
+    {/* </AppProvider> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
